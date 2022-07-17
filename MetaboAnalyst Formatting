@@ -1,5 +1,9 @@
 # This data workflow was made by and is the intellectual property of C.C.J.Fitzgerald and the McLeod group (Australian National University, Canberra, Australia, 2602)
-# Disclaimer of 
+
+# For citation: if you use this code in any form please ask the appropriate authors for premission of use. 
+
+# Disclaimer of liability.
+# The use of this code is at the sole risk of the participant.
 #======================================================================================================================
 # Export files for Metaboanalyst 5.0 ####
 # This code is designed to take the output from the Kmeans data and re-format it so it can be used in MetaboAnalyst 5.0. 
