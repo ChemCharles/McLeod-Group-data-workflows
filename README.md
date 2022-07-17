@@ -6,7 +6,7 @@ To use any of the workflows (or parts thereof) in any public or private material
 
 For Publication purposes please reference, Dr. Christopher Charles Jung-Hua Fitzgerald (OrcID 0000-0003-3935-4300) and Associate Professor Malcolm D. McLeod (OrcID 0000-0002-2343-3226). 
 
-There are several workflows contained with in this repository that sevre different functions to do with targeted and untargeted metabolomics. An example of the workflows has been demonstrated in the following publication, Profiling Urinary Sulfate Metabolites With Mass Spectrometry, @https://doi.org/10.3389/fmolb.2022.829511. 
+There are several workflows contained with in this repository that serve different functions to do with targeted and untargeted metabolomics. An example of the workflows has been demonstrated in the following publication, Profiling Urinary Sulfate Metabolites With Mass Spectrometry, @https://doi.org/10.3389/fmolb.2022.829511. 
 
 Please be considerate when using the workflows. 
 
