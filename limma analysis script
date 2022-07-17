@@ -1,3 +1,9 @@
+# This data workflow was made by and is the intellectual property of C.C.J.Fitzgerald and the McLeod group (Australian National University, Canberra, Australia, 2602)
+# For citation: if you use this code in any form please ask the appropriate authors for premission of use. 
+
+# Disclaimer of liability.
+# The use of this code is at the sole risk of the participant.
+#========================================================================================
 # Limma analysis####
 
 x <- c("Tm48h","Tm24h","T0h",	"T4h",	"T8h",	"T36h",	"T72h",
@@ -14,6 +20,7 @@ colnames(design1)<-x
 
 fit <- lmFit(datalmScaled, design=design1)
 
+#========================================================================================
 # Look at contrasts between all groups relative to the zero hour time point. 
 cont.matrix <- makeContrasts(T0hvsTm48h  =Tm48h-T0h,
                              T0hvsTm24h  =Tm24h-T0h,
@@ -31,16 +38,18 @@ cont.matrix <- makeContrasts(T0hvsTm48h  =Tm48h-T0h,
                              T0hvsCon_2=Con_2-T0h,
                              T0hvsQC =QC-T0h,
                              levels=design1)
-
+#========================================================================================
+# Isolate results as fit1
 fit1 <- contrasts.fit(fit, cont.matrix)
 fit1 <- eBayes(fit1)
 summa.fit1<-decideTests(fit1)
-summary(summa.fit1) 
-
-names(fit1)
-
+summary(summa.fit1)
+#========================================================================================
+# Add p-value and mz's as columns to fit1
 topTable(fit1, coef=1) 
-fit1$p.value_log<--1*log10(fit1$p.value)
+fit1$p.value_log<- -1*log10(fit1$p.value)
 fit1$mz<-data.all$`m/z`
 str(fit1)
 names(fit1)
+#========================================================================================
+
