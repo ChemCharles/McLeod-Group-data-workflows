@@ -1,6 +1,6 @@
 # McLeod-Group-data-workflows
 
-This repository was set up to centralise several data workflows used by the McLeod group to undergo metabolomic analysis. 
+This repository was set up to centralise several data workflows used by the McLeod group to undergo untargeted metabolomic analysis. 
 
 To use any of the workflows (or parts thereof) in any public or private material please seek premission from the McLeod group (RSC, ANU) and/or Christopher Fitzgerald. 
 
