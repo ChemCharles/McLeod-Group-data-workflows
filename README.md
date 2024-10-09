@@ -10,5 +10,13 @@ There are several workflows contained with in this repository that serve differe
 
 Please be considerate when using the workflows. 
 
-For any further details please email either malcolm.mcleod@anu.edu.au or christopher.fitzgerald@unimelb.edu.au. 
+For any further details please email either malcolm.mcleod@anu.edu.au or cfitzgerald@marum.de
+
+
+
+
+
+
+
+
 
